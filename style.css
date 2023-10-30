@@ -1,0 +1,137 @@
+.Container_1{
+    background-image: linear-gradient(to right, #026873,#0FC2C0);
+    background-color: #04b4b4;
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+
+    }
+#Imagem_logo{
+    width: 20%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#Titulo_navbar{
+    color:#D5D5D5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+#Container_user {
+    width: 27%; 
+    margin-left: 300px;
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  #Bottom_user {
+    background-color: #04b4b4;
+    border: none;
+    cursor: pointer;
+    padding: 10px; 
+    transition: background-color 0.3s; 
+    display: flex;
+    align-items: center;
+  }
+  
+  #Bottom_user:hover {
+    background-color: #026873;
+  }
+  
+  #text_container_user {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+  }
+  #User_text_edit{
+   font-size:x-large;
+  }
+  #Imagem_user {
+    width: 20%;
+    height: auto; 
+  }
+  #menu-button {
+    margin-right: 30px;
+    background-color:#0FC2C0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
+  }
+  
+  #menu {
+    display: none;
+    background-color: #0FC2C0;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #menu ul li {
+    padding: 10px;
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  #menu-button:hover + #menu,
+  #menu:hover {
+    display: block;
+  }
+  .Imput_geral{
+    align-items: center;
+  }
+  #Container_Input1{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #Container_Input2{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #Save_Buttom{
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    float: right;
+    height: 40px;
+    width: 20%;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    color:rgb(0, 0, 0);
+    background-color: #21b7b7;
+    transition: background-color 0.3s; 
+
+  }
+  #Save_Buttom:hover{
+    background-color: #026873;
+  }
+  #Container_footer{
+    background-color: #04b4b4;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    justify-content: space-around ;
+  }
